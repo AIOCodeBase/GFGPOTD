@@ -1,6 +1,8 @@
 # **Satisfy the equation**
 
-**Medium** Accuracy: **17.42%** Submissions: **2472** Points: **4**
+**Medium**
+
+Accuracy: **17.42%** Submissions: **2472** Points: **4**
 
 Given an array **A\[ \]** of **N** of integers, find the index of values that satisfy **A + B = C + D** where **A,B,C** &amp; **D** are integers values in the array.  
 **Note:** As there may be multiple pairs satisfying the equation return lexicographically smallest order of A, B, C and D and return all as -1 if there are no pairs satisfying the equation.
