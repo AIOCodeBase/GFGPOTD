@@ -40,4 +40,4 @@ You don't need to read input or print anything. Your task is to complete the fun
 1 &lt;= N &lt;= 500  
 1 &lt;= A\[i\] &lt;= 105
 
-Problem URL: **[Satify the equation](https://practice.geeksforgeeks.org/problems/satisfy-the-equation5847/1)**
+> ### Problem URL: **[Satify the equation](https://practice.geeksforgeeks.org/problems/satisfy-the-equation5847/1)**
