@@ -1,4 +1,4 @@
-### Satisfy the equation
+# **Satisfy the equation**
 
 **Medium** Accuracy: **17.42%** Submissions: **2472** Points: **4**
 
