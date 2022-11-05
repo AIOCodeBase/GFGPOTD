@@ -2,8 +2,6 @@
 
 **Medium**
 
-Accuracy: **55.05%** Submissions: **51798** Points: **4**
-
 Given a row wise sorted matrix of size **R\*C** where R and C are always **odd**, find the median of the matrix.
 
 **Example 1:**

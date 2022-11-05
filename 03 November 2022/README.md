@@ -2,8 +2,6 @@
 
 **Medium**
 
-Accuracy: **46.84%** Submissions: **6013** Points: **4**
-
 Given an array **arr\[\]** of size **N** and an integer **K**. The task is to find the minimum number of elements that should be removed, such that **Amax-Amin&lt;=K.** After the removal of elements, Amax and Amin is considered among the remaining elements.
 
 **Note:** Can you solve the probelm without using any extra space and O(N\*log(N)) time complexity?
