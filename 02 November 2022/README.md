@@ -2,8 +2,6 @@
 
 **Medium**
 
-Accuracy: **34.32%** Submissions: **928** Points: **4**
-
 You live in Geek land. Geek land can be seen as a grid of shape **N** x **M**.Their are **K** enemy at **K** positions. Each enemy blocks the row and column to which it belongs. You have to find the largest continuous area that is not blocked.No two enemies share the same row or the same column.
 
 **Example 1:**
