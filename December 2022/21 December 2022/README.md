@@ -38,4 +38,4 @@ You don't need to read or print anyhting. Your Task is to comple the function **
 1 ≤ N ≤ 10^5  
 -10^5 ≤ node.data ≤ 10^5
 
-> ### **Problem URL: [A difference of values and indexes](https://www.lambdatest.com/free-online-tools/html-to-markdown-converter)**
+> ### **Problem URL: [A difference of values and indexes](https://practice.geeksforgeeks.org/problems/a-difference-of-values-and-indexes0302/1)**
