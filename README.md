@@ -4,11 +4,11 @@
 
 <br />
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge)](https://opensource.org/licenses/MIT)
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg?style=for-the-badge)](./LICENSE)
 [![License: MIT](https://img.shields.io/github/followers/AIOCodeBase?logo=github&label=follow%20%40AIOCodeBase&style=for-the-badge)](https://www.github.com/AIOCodeBase)
 [![Stars](https://img.shields.io/github/stars/AIOCodeBase/GFGPOTD?label=Star%20this%20Repository&style=for-the-badge)](https://www.github.com/AIOCodeBase/GFGPOTD)
 ![FORKS](https://img.shields.io/github/forks/AIOCodeBase/GFGPOTD?style=for-the-badge&social)
-![Repo Size](https://img.shields.io/github/languages/code-size/AIOCodeBase/GFGPOTD?style=for-the-badge)
+[![Repo Size](https://img.shields.io/github/languages/code-size/AIOCodeBase/GFGPOTD?style=for-the-badge)](https://www.github.com/AIOCodeBase/GFGPOTD)
 
 <br />
 
@@ -26,6 +26,6 @@ README.md & CONTRIBUTION.md file will be updated soon...
 
 <br />
 
-## **LICENSE**
+## **License**
 
 MIT License, see the [LICENSE](./LICENSE) file.
