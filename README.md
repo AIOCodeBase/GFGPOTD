@@ -1,6 +1,6 @@
-# **GFGPOTD**
+<h1 align="center"> <b>GFGPOTD (GeeksforGeeks - Problem of the Day)</b> </h1>
 
-## **GeeksforGeeks | Problem of the Day | Solutions**
+<h2 align="center"> <b>GeeksforGeeks | Problem of the Day | Solutions</b> </h2>
 
 <br />
 
@@ -12,13 +12,21 @@
 
 <br />
 
-**Step 1:** If you like this repository or the codes were helpful to you in any way, please give it a **Star**.
+## 📌 **Tech Stack**
 
-**Step 2:** Follow this Organisation
+![C++](https://img.shields.io/badge/c++-%2300599C.svg?style=for-the-badge&logo=c%2B%2B&logoColor=white)
+![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=java&logoColor=white)
+![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
+![Markdown](https://img.shields.io/badge/markdown-%23000000.svg?style=for-the-badge&logo=markdown&logoColor=white)
+![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
 
-README.md & CONTRIBUTION.md file will be updated soon...
+<br />
 
-## Thanks to all the contributors ❤️
+README.md, CONTRIBUTING.md etc. will be updated soon...
+
+### Show some ❤️ by starring ⭐ this awesome Repository!
+
+## **Thanks to all the contributors** ❤️ 🫡
 
 <a href="https://github.com/AIOCodeBase/GFGPOTD/graphs/contributors">
   <img src="https://contrib.rocks/image?repo=AIOCodeBase/GFGPOTD" />
@@ -26,6 +34,18 @@ README.md & CONTRIBUTION.md file will be updated soon...
 
 <br />
 
+<h2 align=center> Project Admin  </h2>
+
+© 2022 AIOCodeBase Team and Contributors
+
+<p align="center">
+<table align="center">
+  <tbody><tr>
+     <td align="center"><a href="https://github.com/AIOCodeBase"><img alt="AIOCodeBase" src="https://avatars.githubusercontent.com/u/117071652" width="125px;"><br><sub><b> AIOCodeBase </b></sub></a><br></td> </a></td>
+</tbody></table>
+
 ## **License**
 
-MIT License, see the [LICENSE](./LICENSE) file.
+This repository is licensed under the [**MIT license**](./LICENSE).
+
+[![BackToTop](https://img.shields.io/badge/-Back%20to%20Top-red?style=for-the-badge)](#top)
