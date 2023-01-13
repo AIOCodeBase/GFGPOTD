@@ -5,7 +5,6 @@
 using namespace std;
 
 // } Driver Code Ends
-// User function Template for C++
 
 class Solution {
   public:
@@ -16,32 +15,30 @@ class Solution {
         memset(adj,0,sizeof adj);
         for(auto edge:graph) adj[edge[0]-1][edge[1]-1]=adj[edge[1]-1][edge[0]-1]=1;
     
-        // creating and initializing dp
         long long dp[N][(1<<N)];
         memset(dp,0,sizeof dp);
         for(int i=0; i<N; i++) dp[i][(1<<i)] = 1;
         
-        for(int subset=0; subset<(1<<N); subset++) // check for all 2^N subsets
+        for(int subset=0; subset<(1<<N); subset++)
         {
-            for(int curr=0; curr<N; curr++) // going through all the nodes
+            for(int curr=0; curr<N; curr++)
             {
-                if(!(subset&(1<<curr))) continue; // skip if current node is not part of subset
+                if(!(subset&(1<<curr))) continue;
                 
-                    for(int prev=0; prev<N; prev++) // going through all previous nodes
+                    for(int prev=0; prev<N; prev++)
                     {
-                        if(curr==prev || arr[curr]==arr[prev]) continue; // skip if previous node is same as current node
+                        if(curr==prev || arr[curr]==arr[prev]) continue;
                         
-                        if(!(subset&(1<<prev))) continue; // skip if previous node is not in subset
+                        if(!(subset&(1<<prev))) continue;
                         
-                        if(!adj[arr[prev]-1][arr[curr]-1]) continue; // skip if no edge between current and previous node
+                        if(!adj[arr[prev]-1][arr[curr]-1]) continue;
                         
-                        dp[curr][subset] += dp[prev][subset^(1<<curr)]; // add all possible ways to end at current node with the given subset.
+                        dp[curr][subset] += dp[prev][subset^(1<<curr)];
                         
                     }
             }
         }
         
-        // Answer is all possible ways where every node is visited(i.e. subset with all 1's) 
         long long ans = 0;
         for(int i=0; i<N; i++)
         {
