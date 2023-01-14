@@ -71,31 +71,97 @@ class GFG {
 
 //User function Template for Java
 
+class Pair<K,V>{
+
+    private K key;
+    private V val;
+    public Pair(K key, V val){
+
+        this.key = key;
+
+        this.val = val;
+
+    }
+    public K getKey(){
+
+        return this.key;
+
+    }
+    public V getVal(){
+
+        return this.val;
+
+    }
+}
+
 class Solution {
-    ArrayList<Integer> maximumToys(int n, int cost[], int q, ArrayList<Integer> qrs[]){
-        int[][] copy=new int[n][2];
-        for (int i=0; i<n; i++) {
-            copy[i][0]=cost[i];
-            copy[i][1]=i+1;
-        }
-        Arrays.parallelSort(copy, (a,b)->a[0]-b[0]);
-        ArrayList<Integer> res=new ArrayList<>();
-        for (int j=0; j<qrs.length; j++) {
-            int c=qrs[j].remove(0);
-            if (qrs[j].size()>0) {
-                qrs[j].remove(0);
+
+    ArrayList<Integer> maximumToys(int N, int A[], int Q, ArrayList<Integer> Queries[]){
+        ArrayList<Pair<Integer,Integer>> arr = new ArrayList<>();
+        for(int i=0; i<N; i++) arr.add(new Pair<Integer,Integer>(A[i],i));
+        Collections.sort(arr, new Comparator<Pair<Integer,Integer>>(){
+            public int compare(Pair<Integer,Integer> p1, Pair<Integer,Integer> p2){
+                return p1.getKey()-p2.getKey();
             }
-            Set<Integer> broken=new HashSet<>(qrs[j]);
-            int count=0;
-            for (int i=0; i<n && c>=copy[i][0]; i++) {
-                if (!broken.contains(copy[i][1]) && c>=copy[i][0]) {
-                    c-=copy[i][0];
-                    count++;
+        });
+
+        HashMap<Integer,Integer> mp = new HashMap<>();
+        for(int i=0; i<N; i++){
+            mp.put(arr.get(i).getVal(),i);
+        }
+        long[] prefix = new long[N+1];
+        prefix[0] = 0;
+        for(int i=1; i<=N; i++)
+        {
+            prefix[i] = prefix[i-1] + arr.get(i-1).getKey();
+        }
+        int[] res = new int[Q];
+        for(int i=0; i<Q; i++){
+            long c = Queries[i].get(0);
+            int k = Queries[i].get(1);
+            int l = 0;
+            int r = N;
+            int ans = 0;
+            while(l<=r){
+                int mid = l + (r-l)/2;
+                if(prefix[mid]<=c){
+                    ans = mid;
+                    l = mid+1;
                 }
+                else r = mid-1;
             }
-            res.add(count);
+
+            if(ans <= 0){
+                res[i] = 0;
+                continue;
+            }
+
+            int idx = ans-1;
+            long rem = c - prefix[ans];
+            HashSet<Integer> notRemoved = new HashSet<>();
+            for(int j = 0; j<k; j++){
+                int qIdx = mp.get(Queries[i].get(j+2) - 1);
+                if(qIdx<=idx){
+                    ans--;
+                    rem += arr.get(qIdx).getKey();
+                }
+                else notRemoved.add(qIdx);
+            }
+
+            int s = idx+1;
+            while(s<N && arr.get(s).getKey()<=rem){
+                if(!notRemoved.contains(s)) {
+                    ans++;
+                    rem-=arr.get(s).getKey();
+                }
+                s++;
+            }
+            res[i] = ans;
         }
-        return res;
-        
+        ArrayList<Integer> ret = new ArrayList<>();
+        for(int i=0; i<Q; i++){
+            ret.add(res[i]);
+        }
+        return ret;
     }
 }
