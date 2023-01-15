@@ -1,7 +1,5 @@
-
 //{ Driver Code Starts
-// Initial Template for C++
-
+//Initial Template for C++
 #include <bits/stdc++.h>
 using namespace std;
 
@@ -58,6 +56,8 @@ public:
       return sol;
   }
 };
+
+//{ Driver Code Starts.
 int main() {
  int t=1;
  cin>>t;
@@ -68,7 +68,6 @@ int main() {
     for(auto &i:A){
       cin>>i;
     }
-      }
     int Q;
     cin>>Q;
     vector<vector<int>> Queries(Q);
@@ -89,3 +88,4 @@ int main() {
     cout<<endl;
  }
 }
+// } Driver Code Ends
