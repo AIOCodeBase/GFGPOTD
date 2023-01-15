@@ -58,14 +58,11 @@ class GFG {
 
 class Solution {
     
-    // Counts the number of substrings in the given string 'S' 
-    // that have equal number of zeroes and ones
     long countSubstring(String S){
         long count = 0, numOfZeroes = 0;
         int zeroIndex = S.length();
         int frequency[] = new int[2 * S.length() + 5];
         int currentCount=zeroIndex;
-        // Iterate through the string and update the count of zeroes and ones
         for(int i = 0; i < S.length(); i++){
             if(S.charAt(i) == '0')
                 currentCount--;
@@ -78,7 +75,6 @@ class Solution {
             frequency[currentCount]++;
         }
 
-        // Iterate through the string again and update the count of substrings
         for(int i = 0; i < S.length(); i++){
             count += (S.length() - i - numOfZeroes) * 1l;
 
