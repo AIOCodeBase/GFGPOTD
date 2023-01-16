@@ -45,7 +45,7 @@ This is a function problem. You only need to complete the function nextLargerEle
 
   
 **Constraints:**  
-1 ≤ n ≤ 106
-0 ≤ arri ≤ 1018
+1 ≤ n ≤ 10^6
+0 ≤ arri ≤ 10^18
 
 > ### **Problem URL: [Next Greater Element](https://practice.geeksforgeeks.org/problems/214734e358208c1c6811d9b237b518f6b3c3c094/1)**
