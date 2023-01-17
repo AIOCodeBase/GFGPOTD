@@ -1,12 +1,3 @@
-'''
-# Node Class:
-class Node:
-    def _init_(self,val):
-        self.data = val
-        self.left = None
-        self.right = None
-        '''
-
 import math
 
 class Solution:
