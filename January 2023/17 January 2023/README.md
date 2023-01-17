@@ -63,7 +63,7 @@ You don't need to take input. Just complete the function maxGCD() that takes the
 
   
 **Constraints:**  
-1 <= Number of nodes <= 105
-1 <= Data of a node <= 105
+1 <= Number of nodes <= 10^5
+1 <= Data of a node <= 10^5
 
 > ### **Problem URL: [Find the maximum GCD of the siblings of a Binary Tree](https://practice.geeksforgeeks.org/problems/6eb51dc638ee1b936f38d1ab4b2f7062d4425463/1)**
