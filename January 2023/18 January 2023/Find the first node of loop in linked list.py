@@ -1,12 +1,3 @@
-#User function Template for python3
-
-""" Node Class
-    class Node:
-        def __init__(self, data):   # data -> value stored in node
-            self.data = data
-            self.next = None
-"""
-
 from collections import defaultdict
 class Solution:
     #Function to find first node if the linked list has a loop.
