@@ -28,22 +28,10 @@ void loopHere(Node* head, Node* tail, int position)
 
 
 // } Driver Code Ends
-//User function Template for C++
 
-/*struct Node
-{
-    int data;
-    struct Node *next;
-    Node(int x) {
-        data = x;
-        next = NULL;
-    }
-
-*/
 class Solution
 {
     public:
-     //Function to find first node if the linked list has a loop.
     int findFirstNode(Node* head)
     {
          Node*fast=head;
