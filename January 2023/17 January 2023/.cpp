@@ -99,15 +99,10 @@ struct Node
 class Solution
 {
 public:
-    int gcd(int a, int b){
-        int c=max(a,b);
-        int res=1;
-        for(int i=1;i<=c/2;i++){
-            if(a%i==0 && b%i==0){
-                res=i;
-            }
-        }
-        return res;
+   int gcd(int a, int b){
+      if(a<b) return gcd(b,a);
+        if(b==0) return a;
+        return gcd(b,a%b);
     }
     int maxGCD( Node* root)
     {  
