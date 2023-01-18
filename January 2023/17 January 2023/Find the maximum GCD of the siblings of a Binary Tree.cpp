@@ -79,21 +79,6 @@ Node* buildTree(string str)
 }
 
 // } Driver Code Ends
-//User function Template for C++
-
-/*
-struct Node
-{
-    int data;
-    struct Node* left;
-    struct Node* right;
-    
-    Node(int x){
-        data = x;
-        left = right = NULL;
-    }
-};
- */
 
 
 class Solution
