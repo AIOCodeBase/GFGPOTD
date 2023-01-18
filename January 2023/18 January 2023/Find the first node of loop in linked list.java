@@ -90,21 +90,6 @@ class GFG
 // } Driver Code Ends
 
 
-//User function Template for Java
-
-
-/* class Node
-{
-    int data;
-    Node next;
-    
-    Node(int x)
-    {
-        data = x;
-        next = null;
-    }
-}*/
-
 class Solution {
     //Function to find first node if the linked list has a loop.
     public static int findFirstNode(Node head){
