@@ -34,8 +34,8 @@ The task is to complete the function findFirstNode() which contains reference to
 
   
 **Constraints:**    
-1 <= N <= 105  
-1 <= Data on Node <= 106   
+1 <= N <= 10^5  
+1 <= Data on Node <= 10^6   
 0 <= pos <= N
 
 > ### **Problem URL: [Find the first node of loop in linked list](https://practice.geeksforgeeks.org/problems/44bb5287b98797782162ffe3d2201621f6343a4b/1)**
