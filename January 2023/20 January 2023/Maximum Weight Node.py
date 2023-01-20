@@ -2,8 +2,7 @@
 
 class Solution():
     def maxWeightCell(self, N, Edge):
-        #your code goes here
-  weight = [0]*N
+        weight = [0]*N
 
         for i in range(N):
 
@@ -12,7 +11,7 @@ class Solution():
                 weight[Edge[i]] += i
 
         return weight.index(max(weight))
-        #{
+#{
  # Driver Code Starts
 #Initial Template for Python 3
 
