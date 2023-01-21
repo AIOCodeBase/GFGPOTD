@@ -1,9 +1,6 @@
-#User function Template for python3
-
 class Solution:
     def minVal(self, a, b):
-        #code here
- n = bin(b)[2:].count("1")
+        n = bin(b)[2:].count("1")
         arr = list(bin(a)[2:])
         ans = ""
         for i in arr:
