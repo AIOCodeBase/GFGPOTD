@@ -30,7 +30,6 @@ class GFG {
 
 class Solution {
     public static int minVal(int a, int b) {
-        // code here
         int a1 = countSetBit(a);
         int b1 = countSetBit(b);
         int ans = a;
