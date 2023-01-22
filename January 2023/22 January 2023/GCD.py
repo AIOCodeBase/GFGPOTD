@@ -1,0 +1,83 @@
+from typing import List
+
+class Solution:
+
+    def solve(self, N : int, K : int, arr : List[int]) -> int:
+
+  # code here
+
+        a = sum(arr)
+
+        d = []
+
+        m = int(a ** 0.5)
+
+ for i in range(1, m+1):
+
+            if a % i == 0:
+
+                d.append(i)
+
+                if i != (a // i):
+
+                    d.append(a // i)
+
+ d.sort(reverse = True)
+
+        arr = [0] + arr
+
+        for i in range(1, N):
+
+            arr[i] += arr[i-1]
+
+          for x in d:
+
+            cnt = 0
+
+            for y in arr:
+
+                cnt += (y % x == 0)
+
+                if cnt >= K:
+
+                    return x
+
+ 
+
+        return 1
+
+    #{
+ # Driver Code Starts
+
+
+class IntArray:
+    def __init__(self) -> None:
+        pass
+    def Input(self,n):
+        arr=[int(i) for i in input().strip().split()]#array input
+        return arr
+    def Print(self,arr):
+        for i in arr:
+            print(i,end=" ")
+        print()
+
+
+if __name__=="__main__":
+    t = int(input())
+    for _ in range(t):
+
+        N = int(input())
+
+
+        K = int(input())
+
+
+        arr=IntArray().Input(N)
+
+        obj = Solution()
+        res = obj.solve(N, K, arr)
+
+        print(res)
+
+
+# } Driver Code Ends
