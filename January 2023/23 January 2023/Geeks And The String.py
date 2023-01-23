@@ -1,6 +1,6 @@
 class Solution:
     def removePair(self,s):
-          st=[]
+        st=[]
         l=list(s)
         for i in range(len(l)):
             if len(st)==0:
