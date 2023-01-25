@@ -1,10 +1,10 @@
-#User function Template for python3
 import numpy as np
 class Solution:
 	def convert(self,arr, n):
 		indices = np.argsort(arr)
         for i in range(n): arr[indices[i]] = i
-        #{
+        
+#{ 
  # Driver Code Starts
 #Initial Template for Python 3
 
