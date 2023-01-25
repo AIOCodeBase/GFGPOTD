@@ -16,8 +16,6 @@ class Solution {
         
         for(int i=0; i<n/2; i++){
              int dup = 0;
-             // x is the starting index of next repeating string
-             // it's length should be 2x
              int x = i+1;
              
             for(int j=x; j<2*x; j++){
