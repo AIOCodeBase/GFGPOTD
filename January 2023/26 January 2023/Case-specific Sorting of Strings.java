@@ -17,8 +17,6 @@ class Solution
 
     {
 
-        // Your code here
-
         if(str.length()==1) return str;
 
         int[] cap = new int[26];
