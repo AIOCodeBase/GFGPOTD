@@ -2,7 +2,6 @@
 
 class Solution:
 
-    #Function to perform case-specific sorting of strings.
     def caseSort(self,s,n):
         case = [1 if ele.isupper() else 0 for ele in s]
         s = sorted(list(s))
