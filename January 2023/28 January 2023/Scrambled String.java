@@ -41,7 +41,6 @@ class Solution{
         
         int n = S1.length();
         
-        // create a 3D dp array
         boolean[][][] dp = new boolean[n][n][n + 1];
         // fill the dp array with the base cases
         for (int i = 0; i < n; i++) {
@@ -49,7 +48,6 @@ class Solution{
                 dp[i][j][1] = S1.charAt(i) == S2.charAt(j);
             }
         }
-        // fill the dp array using dynamic programming
         for (int len = 2; len <= n; len++) {
             for (int i = 0; i <= n - len; i++) {
                 for (int j = 0; j <= n - len; j++) {
