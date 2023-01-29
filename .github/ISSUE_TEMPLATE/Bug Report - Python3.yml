@@ -1,5 +1,5 @@
 name: Bug Report - Python3
-description: If you find a bug, error, or mistake in the C++ file, please report it so that the project can be improved.
+description: If you find a bug, error, or mistake in the python3 file, please report it so that the project can be improved.
 title: "🪲[Bug]: <Name of the File>"
 labels: ["bug", "python3", "enhancement", "good first issue", "help wanted"]
 body:
