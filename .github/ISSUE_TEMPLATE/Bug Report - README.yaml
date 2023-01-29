@@ -1,7 +1,7 @@
 name: Bug Report - README
 description: If you find a bug, error, or mistake in the C++ file, please report it so that the project can be improved.
 title: "[Bug]: "
-labels: ["bug", "triage"]
+labels: ["bug","documentation","enhancement","good first issue","help wanted","markdown","readme"]
 body:
   - type: markdown
     attributes:
