@@ -1,10 +1,9 @@
 ---
-name: Bug - README.md
+name: Bug report - C++
 about: If you find a bug, error, or mistake in the README.md file, please report it
   so that the project can be improved.
-title: "[BUG]: "
-labels: bug, documentation, enhancement, good first issue, help wanted, markdown,
-  readme
+title: "[BUG]: C++ - [Name of the File]"
+labels: bug, c++, enhancement, good first issue, help wanted
 assignees: ''
 
 ---
