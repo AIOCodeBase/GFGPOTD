@@ -1,0 +1,11 @@
+name: Bug Report
+description: File a bug report
+title: "[DON'T CREATE A ISSUE]: "
+labels: ["bug"]
+assignees:
+  - imsampro
+body:
+  - type: markdown
+    attributes:
+      value: |
+        # In this repository creating new custom issue is not allowed!
