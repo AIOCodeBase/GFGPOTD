@@ -1,7 +1,7 @@
 name: Bug Report - C++
 description: If you find a bug, error, or mistake in the C++ file, please report it so that the project can be improved.
 title: "🪲[Bug]: <Name of the File>"
-labels: ["bug","c++","enhancement","good first issue","help wanted"]
+labels: ["bug", "c++", "enhancement", "good first issue", "help wanted"]
 body:
   - type: markdown
     attributes:
