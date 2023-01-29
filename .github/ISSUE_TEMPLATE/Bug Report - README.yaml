@@ -3,7 +3,7 @@ description: If you find a bug, error, or mistake in the C++ file, please report
 title: "[Bug]: "
 labels: ["bug", "triage"]
 assignees:
-  - imsampro
+  - @me
 body:
   - type: markdown
     attributes:
