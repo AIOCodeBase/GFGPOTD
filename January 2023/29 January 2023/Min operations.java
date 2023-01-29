@@ -29,7 +29,9 @@ class GFG {
 
 // } Driver Code Ends
 
- if(a==b){
+class Solution {
+    public static int solve(int a, int b) {
+        if(a==b){
 
         return 0;
    }
@@ -42,5 +44,4 @@ class GFG {
         return 1;
     }
 }
-
-
+        
