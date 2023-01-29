@@ -2,28 +2,28 @@ class Solution:
   def solve(self, a : int, b : int) -> int:
         ans = a & b
         count =0
-        
+
         while( a!= b):
             x= a
             a = a & ans
             if( a==b):
                 count+=1
                 return count
-            if( x!=a): # if appliying and operation does change it 
+            if( x!=a):
                 count+=1
-            
-            
+
+
             y=b
             b = b & ans
             if( a==b ):
                 count+=1
                 return count
-                
-            if( y !=b):# if appliying and operation does change it
+
+            if( y !=b):
                 count+=1
-                
+
         return count
- 
+
 #{ 
  # Driver Code Starts
 if __name__=="__main__":
