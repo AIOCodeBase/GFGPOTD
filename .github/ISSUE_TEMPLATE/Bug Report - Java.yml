@@ -1,0 +1,37 @@
+name: Bug Report - Java
+description: If you find a bug, error, or mistake in the Java file, please report it so that the project can be improved.
+title: "🪲[Bug]: <Name of the File>"
+labels: ["bug", "java", "enhancement", "good first issue", "help wanted"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to fill out this bug report!
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: What happened?
+      description: Also tell us, what did you expect to happen?
+      placeholder: Tell us what you see!
+      value: "A bug happened!"
+    validations:
+      required: true
+  - type: dropdown
+    id: browsers
+    attributes:
+      label: What browsers are you seeing the problem on?
+      multiple: true
+      options:
+        - Firefox
+        - Chrome
+        - Brave
+        - Safari
+        - Microsoft Edge
+  - type: checkboxes
+    id: terms
+    attributes:
+      label: Pull Request Confirmation
+      description: By submitting this issue, you agree to fulfil all the checklist requirements above.
+      options:
+        - label: I agree to checked all the checklist requirements.
+          required: true

@@ -22,8 +22,6 @@
 
 <br />
 
-README.md, CONTRIBUTING.md etc. will be updated soon...
-
 ### Show some ❤️ by starring ⭐ this awesome Repository!
 
 ## **Thanks to all the contributors** ❤️ 🫡
