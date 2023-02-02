@@ -14,7 +14,7 @@ Closes #
 - [ ] My code follows the code style of this project.
 - [ ] My code will not cause a merge conflict.
 - [ ] The title of my pull request is a short description of the requested changes.
-- [ ] I have renamed the file before making this pull request.
+- [ ] I have named & renamed the file & folders correctly before making this pull request.
 - [ ] I have formatted the code accordingly.
 - [ ] My code is different than the existing code in this repository (if any).
 - [ ] I removed all comments and commented lines from the main code. (class Sotulion{...})
