@@ -37,7 +37,7 @@ Hence the last modified bowl is 1.
 You don't need to read input or print anything. Your task is to complete the function **solve( )** which takes **N** and **A\[ \]** as input parameters and returns the position of the last modified bowl.
 
 **Constraints:**  
-1 ≤ N ≤ 10^5  
+1 ≤ N ≤ $10^5$  
 0 ≤ A\[i\] ≤ 9
 
 > ### **Problem URL: [Last modified ball](https://practice.geeksforgeeks.org/problems/33af95e5935f1f2a0c3f5083c4b9d0db68e97bd4/1)**
