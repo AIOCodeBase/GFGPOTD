@@ -36,6 +36,6 @@ You don't need to read input or print anything. Your task is to complete the fun
 
 **Constraints:**  
 1 ≤ N ≤ $10^6$  
-1 ≤ Arri ≤ 10^7  
+1 ≤ Arri ≤ $10^7$  
 
 > ### **Problem URL: [Max Sum without Adjacents](https://practice.geeksforgeeks.org/problems/7a33c749a79327b2889d420dd80342fff33aac6d/1)**
