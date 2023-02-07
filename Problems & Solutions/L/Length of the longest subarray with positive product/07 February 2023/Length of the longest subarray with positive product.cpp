@@ -12,10 +12,7 @@ using namespace std;
 
 class Solution {
     public:
-        // Function to return the length of the
-        //longest subarray with ppositive product
         int maxLength(vector<int> &arr,int n){
-           //code here
            int res = 0;
            int Pos = 0, Neg = 0;
            
