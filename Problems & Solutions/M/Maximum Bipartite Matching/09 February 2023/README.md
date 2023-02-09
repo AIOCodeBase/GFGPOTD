@@ -36,7 +36,7 @@ Second applicant gets the 2nd job.
 **Your Task:**  
 You don't need to read to print anything. Your task is to complete the function **maximumMatch()** which takes matrix G as input parameter and returns the maximum number of applicants who can get the job.
 
-**Expected Time Complexity:** O($N^3$)  
+**Expected Time Complexity:** $O(N^3)$  
 **Expected Auxiliary Space:** O(N)
 
 **Constraints:**  
