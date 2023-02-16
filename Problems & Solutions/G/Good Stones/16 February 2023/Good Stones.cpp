@@ -24,14 +24,12 @@ public:
     }
     
     int goodStones(int n,vector<int> &arr){
-        // Code here
         vector<int> dp(n, -1);
         
         for(int i=0; i<n; i++){
             solve(i, n, dp, arr);
         }
         
-        // accumulate - return the sum from begin to end. But in this ques we count the no of zeroes in dp array.
         int ans = accumulate(dp.begin(), dp.end(), 0);
         return ans;
     }  
