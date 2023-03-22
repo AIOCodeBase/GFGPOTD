@@ -12,7 +12,7 @@
 
 **3.** Navigate to the project directory.
 ```
-   cd LeatherHoard-Website
+   cd GFGPOTD
 ```
 
 **4.** Create a new branch:
